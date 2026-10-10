@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Rishi Kharya · AI & Systems Developer</title>
-  <meta name="description" content="Rishi Kharya is a student developer at IIT Bhilai building AI agents, multimodal ML and systems software: DevPilot, Aura, an encrypted group chat and a container runtime in C.">
+  <meta name="description" content="Rishi Kharya is a student developer at IIT Bhilai building AI agents, multimodal ML and distributed systems: DevPilot, Aura, an encrypted group chat and a village pond planner.">
   <meta name="author" content="Rishi Kharya">
   <meta name="theme-color" content="#09090b">
   <link rel="canonical" href="https://krish1809.github.io/">
@@ -13,7 +13,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Rishi Kharya">
   <meta property="og:title" content="Rishi Kharya · AI & Systems Developer">
-  <meta property="og:description" content="I build AI that shows its work, and systems that hold up. Projects: DevPilot, Aura, an encrypted group chat, Capsule and more.">
+  <meta property="og:description" content="I build AI that shows its work, and systems that hold up. Projects: DevPilot, Aura, an encrypted group chat and more.">
   <meta property="og:url" content="https://krish1809.github.io/">
   <meta property="og:image" content="https://krish1809.github.io/assets/og.png">
   <meta property="og:image:width" content="1200">
@@ -191,7 +191,7 @@
         <header class="section__head" data-reveal>
           <p class="eyebrow">Selected work</p>
           <h2 class="section__title">Projects I’m <em>proud of</em>.</h2>
-          <p class="section__desc">Five builds across AI agents, multimodal ML, distributed systems, geospatial analysis and Linux internals.</p>
+          <p class="section__desc">Four builds across AI agents, multimodal ML, distributed systems and geospatial analysis.</p>
         </header>
 
         <div class="projects">
@@ -296,39 +296,6 @@
               </div>
             </div>
           </article>
-
-          <!-- Capsule -->
-          <article class="project" id="project-capsule" style="--tint: 28 95% 58%">
-            <a class="project__media" href="https://github.com/krish1809/capsule" target="_blank" rel="noopener noreferrer" aria-label="Open the Capsule repository" data-reveal>
-              <div class="window window--dark">
-                <div class="window__bar"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span><span class="window__url">capsule · bash</span></div>
-<pre class="window__code"><span class="c-dim"># run a shell in an isolated container</span>
-<span class="c-acc">$</span> sudo ./capsule run --rootfs rootfs/alpine \
-      --memory 100M --cpus 0.5 --pids 32 -- /bin/sh
-
-<span class="c-dim"># what it can see</span>
-  <span class="c-key">namespaces</span>   PID · mount · UTS · IPC · network
-<span class="c-dim"># where it lives</span>
-  <span class="c-key">filesystem</span>   OverlayFS + pivot_root
-<span class="c-dim"># what it can use</span>
-  <span class="c-key">cgroups v2</span>   memory · cpu · pids</pre>
-              </div>
-            </a>
-            <div class="project__body" data-reveal style="--d:.08s">
-              <p class="project__meta"><span class="project__num">05</span><span>Systems · C</span><span class="project__wip">In progress</span></p>
-              <h3 class="project__title">Capsule</h3>
-              <p class="project__pitch">A minimal Linux container runtime in C, built directly on kernel primitives with no container libraries.</p>
-              <ul class="project__points">
-                <li>PID, mount, UTS, IPC and network namespaces control what the container can see.</li>
-                <li>OverlayFS and <code>pivot_root</code> give it its own root filesystem.</li>
-                <li>cgroups v2 caps memory, CPU and process count, so even a fork bomb stays inside.</li>
-              </ul>
-              <ul class="tags" aria-label="Built with"><li>C</li><li>Linux</li><li>namespaces</li><li>cgroups v2</li><li>OverlayFS</li></ul>
-              <div class="project__links">
-                <a class="link-btn link-btn--primary" href="https://github.com/krish1809/capsule" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#i-github"/></svg> Source</a>
-              </div>
-            </div>
-          </article>
         </div>
 
         <h3 class="subhead" data-reveal>More projects</h3>
@@ -372,14 +339,13 @@
         <div class="about__grid">
           <div class="about__text" data-reveal>
             <p class="about__lead">I’m Rishi Kharya, an undergraduate at IIT Bhilai. I learn a system best by building the thing on top of it, and then the thing underneath it.</p>
-            <p>So my projects tend to come in pairs. An AI agent that writes code, and the sandbox that stops that code touching anything it shouldn’t. A group chat, and the signatures that prove who sent each message. A container runtime written straight against the Linux kernel, so Docker stops being magic.</p>
+            <p>So my projects tend to come in pairs. An AI agent that writes code, and the sandbox that stops that code touching anything it shouldn’t. A group chat, and the signatures that prove who sent each message.</p>
             <p>I try to keep my engineering honest: test it, measure it before claiming it, and say clearly what a project doesn’t do yet.</p>
           </div>
 
           <aside class="now" data-reveal style="--d:.08s" aria-label="What I'm doing now">
             <p class="now__head"><span class="status__dot"></span> Now</p>
             <ul>
-              <li><span>Building</span><p>Capsule, a container runtime in C</p></li>
               <li><span>Studying</span><p>How Postgres behaves under concurrent writes: isolation levels and locking strategies</p></li>
               <li><span>Looking for</span><p>Internships in AI, backend or systems engineering</p></li>
             </ul>
@@ -411,7 +377,7 @@
             <p class="edu__deg">Undergraduate</p>
           </div>
           <ul class="edu__courses" aria-label="Relevant coursework">
-            <li>Operating Systems</li><li>Database Systems</li><li>Computer Networks</li><li>Computer System Design</li><li>NLP</li><li>Data Analysis &amp; Visualisation</li><li>Statistical Programming</li>
+            <li>Data Structures</li><li>Algorithms</li><li>Operating Systems</li><li>Database Systems</li><li>Computer Networks</li><li>Computer System Design</li><li>NLP</li><li>Data Analysis &amp; Visualisation</li><li>Statistical Programming</li>
           </ul>
         </div>
       </div>
@@ -423,7 +389,7 @@
         <header class="section__head" data-reveal>
           <p class="eyebrow">Toolbox</p>
           <h2 class="section__title">What I <em>build with</em>.</h2>
-          <p class="section__desc">Everything here shows up in at least one of the projects above.</p>
+          <p class="section__desc">The languages, frameworks and tools I use across my projects and coursework.</p>
         </header>
         <div class="stack">
           <div class="stack__group" data-reveal>
@@ -448,7 +414,7 @@
           </div>
           <div class="stack__group" data-reveal style="--d:.1s">
             <h3>Systems &amp; DevOps</h3>
-            <ul class="chips"><li>Linux internals</li><li>Docker</li><li>Git</li><li>GitHub Actions</li><li>Bash</li><li>Vercel</li></ul>
+            <ul class="chips"><li>Linux</li><li>Docker</li><li>Git</li><li>GitHub Actions</li><li>Bash</li><li>Vercel</li></ul>
           </div>
         </div>
       </div>

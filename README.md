@@ -2,7 +2,7 @@
 
 My personal site: **https://krish1809.github.io**
 
-I build AI that shows its work, and systems that hold up. The site covers my main projects (DevPilot, Aura, CSD Group Chat, Village Pond Planner, Capsule), what I'm working on now, and how to reach me.
+I build AI that shows its work, and systems that hold up. The site covers my main projects (DevPilot, Aura, CSD Group Chat, Village Pond Planner), what I'm working on now, and how to reach me.
 
 ## Stack
 
